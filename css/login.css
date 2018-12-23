@@ -1,0 +1,158 @@
+/**/
+*{
+	box-sizing: border-box;
+}
+
+.banner-content-link{
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 25px;
+	border: 2px solid #EE716B;
+	border-radius: 25px;
+	color: #EE716B;
+	margin-top: 30px;
+}
+.banner-content h2{
+	color: #EE716B;
+	margin-top: 100px;
+}
+.banner-content p{
+	color: #7E8897;
+	margin-top: 60px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.login-block{
+	padding: 50px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.banner-sec {
+	width: 35%;
+	background-color: whitesmoke;
+	text-align: center;
+	padding: 0 25px;
+}
+.login-sec {
+	width: 65%;
+	background-color: #576271;
+	padding: 100px 100px;
+}
+.login-sec h2{
+	color: #AEB2B7;
+	margin-bottom: 0px;
+}
+.login-sec p{
+	color: #798492;
+	margin: 5px 0 40px 0;
+}
+.signin-form label{
+	display: block;
+	margin-bottom: 10px;
+	color: #858B95;
+}
+.form-group input{
+	padding: 12px 15px;
+    background: #fff;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 4px;
+}
+.form-check {
+	text-align: center;
+}
+.form-check label{
+	text-align: left;
+}
+.form-check button{
+	background-color: #EF716B;
+	  border: none;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  font-size: 16px;
+	  border-radius: 25px;
+}
+.label-link{
+	float: right;
+	text-decoration: none;
+	color:#858B95;
+ }
+ .form-check .label-link{
+ 	color: #fff;
+ }
+ .social {
+    float: left;
+    text-align: left;
+}
+ul{
+	list-style: none;
+}
+ul.top-links-w3 li {
+    display: inline-block;
+}
+.banner-media {
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+.banner-media ul{
+	display: flex;
+}
+.banner-media ul li {
+    width: 20%;
+}
+.banner-media ul li a {
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #4e6780;
+}
+.logo-img {
+    display: block;
+    background-image: url(../images/tls_main_logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 30%;
+    height: 110px;
+    position: relative;
+}
+@media only screen and (max-width: 450px) {
+  .row {
+  	display: block;
+  }
+  .banner-sec{
+  	width: 100%;
+  }
+  .logo-img{
+  	width: 97%;
+  }
+  .banner-content h2{
+  	margin-top: 10px;
+  }
+  .banner-content p{
+  	margin-top: 20px;
+  }
+  .banner-content-link{
+  	margin-top: 0px;
+  }
+  .login-sec{
+  	width: 100%;
+  	padding: 25px;
+  }
+  .login-sec h2{
+  	text-align: center;
+  }
+  .login-sec p{
+  	text-align: center;
+  }
+  .signin-form label{
+  	font-size: 12px;
+  }
+  .form-check button{
+  	margin-top: 20px;
+  }
+}
