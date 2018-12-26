@@ -477,4 +477,11 @@ table {
   }
 }
 
+.slick-slider{
+  margin: 25px !important;
+}
+flot > div {
+    margin: 10px;
+}
+
 

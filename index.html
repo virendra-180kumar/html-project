@@ -5,58 +5,24 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://vasyabigi.github.io/angular-slick/bower_components/slick-carousel/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
-	<section class="login-block">
-		<div class="container">
-			<div class="row">
-				<div class="banner-sec">
-					<div class="banner-content">
-						<div class="logo-container">
-							<a href="" class="logo-img"></a>
-						</div>
-						<h2>Transformative</h2>
-						<p>Your Logistic, inventory and order just a click away</p>
-						<a href="" class="banner-content-link">Learn More</a>
-					</div>
-					<div class="banner-media">
-						<ul>
-							<li class="fb"><a href="#" data-tooltip="facebook" ><i class="fa fa-facebook-f"></i></a></li>
-							<li class="tw"><a href="#" data-tooltip="Twitter" ><i class="fa fa-twitter"></i></a></li>
-							<li class="insta"><a href="#" data-tooltip="Instagram" ><i class="fa fa-instagram"></i></a></li>
-							<li class="yt"><a href="#" data-tooltip="Youtube" ><i class="fa fa-youtube-play"></i></a></li>
-							<li class="pint"><a href="#" data-tooltip="Pinterest" ><i class="fa fa-pinterest-p"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="login-sec">
-					<h2>Sign in to Transformative</h2>
-					<p>Enter your details here</p>
-					<form class="signin-form">
-						<div class="form-group">
-							<label>Username</label>
-							<input type="text" name="" placeholder="Username">
-						</div>
-						<div class="form-group">
-							<label>Password
-								<a class="label-link" href="/password_reset">Forgot Username/password?</a>
-							</label>
-							<input type="password" name="" placeholder="Password">
-						</div>
-						<div class="form-check">
-							<label class="form-check-label">
-								<input class="form-check-input" type="checkbox">
-								<small>Remember Me</small>
-								<a class="label-link" href="/password_reset">Forgot Username/password?</a>
-							</label>
-							<button class="form-check-submit" type="submit">Sign in</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-		
-	</section>
+	<div ng-app="app" ui-view></div>
 </body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.20/angular-ui-router.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/controllers/loginCtrl.js"></script>
+<script type="text/javascript" src="scripts/controllers/dashboardCtrl.js"></script>
+<script type="text/javascript" src="scripts/controllers/sideNavCtrl.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script type="text/javascript" src="scripts/lib/angular-slick.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.min.js"></script>
+<script type="text/javascript" src="scripts/lib/angular-flot.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </html>

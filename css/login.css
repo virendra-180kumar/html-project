@@ -1,3 +1,4 @@
+@import "dashboard.css";
 /**/
 *{
 	box-sizing: border-box;
@@ -75,6 +76,7 @@
 	  text-decoration: none;
 	  font-size: 16px;
 	  border-radius: 25px;
+    margin-bottom: 10px;
 }
 .label-link{
 	float: right;
